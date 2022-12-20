@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/planet.gif" type="image/x-icon">
+    <title>Utazás kalkulátor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Utazás kalkulátor</h1>
+
+        <table>
+            <tr>
+                <td><img src="img/planet.gif"></td>
+                <th>Uticél</th>
+                <th>Ár:</th>
+                <th>Reptéri illeték:</th>
+                <th>Biztosítás: utazás árának 12%-a</th>
+                <th class="f">Fő:</th>
+                <th>Összesen:</th>
+            </tr>
+            <tr>
+                <td><img src="img/roma.jpg"></td>
+                <th>Róma</th>
+                <td><input type="number" name="ar" id="ar" disabled>Ft</td>
+                <td><input type="number" name="szazalek" id="szazalek" disabled>%</td>
+                <td><input type="button" value=""></td></td>
+                <td id="harminc"><input type="number" name="fö" id="fö">Fő</td></td>
+                <td><input type="number" name="osszes" id="osszes" disabled>Ft</td>
+            </tr>
+            <tr>
+                <td><img src="img/jordania.jpg"></td>
+                <th>Jordánia</th>
+                <td><input type="number" name="ar"  id="ar" disabled>Ft</td>
+                <td><input type="number" name="szazalek"  id="szazalek" disabled>%</td>
+                <td><input type="button" value=""></td>
+                <td id="harminc"><input type="number" name="fö" id="fö">Fő</td></td>
+                <td><input type="number" name="osszes"  id="osszes" disabled>Ft</td>
+            </tr>
+            <tr>
+                <td><img src="img/torokorszag.jpg"></td>
+                <th>Törökország</th>
+                <td><input type="number" name="ar" id="ar" disabled>Ft</td>
+                <td><input type="number" name="szazalek" id="szazalek" disabled>%</td>
+                <td><input type="button" value=""></td></td>
+                <td id="harminc"><input type="number" name="fö" id="fö">Fő</td></td>
+                <td><input type="number" name="osszes" id="osszes" disabled>Ft</td>
+            </tr>
+            <tr>
+                <td><img src="img/marokko.jpg"></td>
+                <th>Marokkó</th>
+                <td><input type="number" name="ar" id="ar" disabled>Ft</td>
+                <td><input type="number" name="szazalek" id="szazalek" disabled>%</td>
+                <td><input type="button" value=""></td></td>
+                <td id="harminc"><input type="number" name="fö" id="fö">Fő</td></td>
+                <td><input type="number" name="osszes" id="osszes" disabled>Ft</td>
+            </tr>
+            <tr>
+                <td></td>
+                <th class="job" colspan="6">Mindösszesen:<input type="number" name="ossz" id="ossz" disabled>Ft</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

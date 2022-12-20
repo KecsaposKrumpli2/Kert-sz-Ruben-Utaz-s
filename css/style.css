@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(red, orange, yellow, green, blue, purple);
+}
+
+.container {
+    margin: auto;
+    width: 900px;
+    background-color: rgba(255,255,255,0.4);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px grey;
+    width: 70px;
+}
+
+.harminc {
+    width: 30px;
+}
+
+th {
+    background-color: rgba(255,255,255,0.4);
+}
+
+td {
+    background-color: rgba(255,255,255,0.2);
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.job {
+    text-align: right;
+}
